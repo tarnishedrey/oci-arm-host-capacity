@@ -1,4 +1,4 @@
-```yaml
+yaml
 name: Create Instance
 
 on:
@@ -61,4 +61,3 @@ jobs:
           # Optional Telegram
           TELEGRAM_USER_ID: ${{ secrets.TELEGRAM_USER_ID }}
           TELEGRAM_BOT_API_KEY: ${{ secrets.TELEGRAM_BOT_API_KEY }}
-```
